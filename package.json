@@ -11,8 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@json2csv/node": "^6.1.2",
+    "@json2csv/plainjs": "^6.1.2",
     "chalk": "^5.2.0",
     "csvjson": "^5.1.0",
+    "dotenv": "^16.0.3",
     "json2csv": "^6.0.0-alpha.2",
     "ndjson": "^2.0.0"
   }
