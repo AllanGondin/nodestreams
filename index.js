@@ -3,7 +3,6 @@ import { Transform } from "stream"
 import { pipeline } from 'stream/promises'
 import { createReadStream, createWriteStream } from 'fs'
 import ndjson from 'ndjson'
-import { networkInterfaces } from 'os'
 
 const main = async () => {
   dotenv.config()
